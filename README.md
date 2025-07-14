@@ -48,9 +48,9 @@ reddit-persona-gen/
 1. **Clone the repo:**
 
    ```bash
-   git clone https://github.com/yourusername/reddit-persona-gen.git
+   git clone https://github.com/SFG006/reddit-persona-gen.git
    cd reddit-persona-gen
-````
+   ````
 
 2. **Install dependencies:**
 
