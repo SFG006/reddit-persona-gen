@@ -70,13 +70,13 @@ reddit-persona-gen/
 4. **Run the script:**
 
    ```bash
-   python main.py https://www.reddit.com/user/ChiefLeef22/
+   python main.py https://www.reddit.com/user/<reddit_username>/
    ```
 
 5. **Output will be saved to:**
 
    ```
-   output/persona_ChiefLeef22.txt
+   output/persona_<reddit_username>.txt
    ```
 
 ---
