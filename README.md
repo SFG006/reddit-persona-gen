@@ -103,7 +103,7 @@ Outputs for all are included in the `/output` folder.
 
 ---
 
-## 📓 Bonus: Development Notebook
+## Development Notebook
 
 This repository also contains `notebook.ipynb`, where initial tests and ideas were explored before building the final modular scripts. You can open it to see how logic was developed and verified.
 
