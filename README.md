@@ -4,6 +4,12 @@ This project generates a detailed user persona by analyzing Reddit posts and com
 
 ---
 
+## 🎥 Project Demo (Video)
+
+https://github.com/user-attachments/assets/29c53de0-682c-4f86-9028-255682e99eb1
+
+---
+
 ## 🚀 Features
 
 - 🔍 Scrapes posts & comments from any Reddit user
