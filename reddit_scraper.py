@@ -1,5 +1,3 @@
-# reddit_scraper.py
-
 import praw                     # Import Reddit API wrapper
 import os                       # To access environment variables
 from dotenv import load_dotenv # To load .env file

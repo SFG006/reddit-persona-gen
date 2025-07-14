@@ -1,5 +1,3 @@
-# main.py
-
 import argparse
 from reddit_scraper import scrape_reddit_user, extract_username_from_url
 from persona_generator import generate_persona
