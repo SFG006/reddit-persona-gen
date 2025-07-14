@@ -1,13 +1,13 @@
 # Reddit User Persona Generator 🤖
 
-This project generates a detailed user persona by analyzing Reddit posts and comments from a given profile URL. It scrapes public data using Reddit's API and summarizes the user's personality, interests, and values using Gemini Pro (Google Generative AI).
+This project generates a detailed user persona by analyzing Reddit posts and comments from a given profile URL. It scrapes public data using Reddit's API and summarizes the user's personality, interests, and values using Gemini 2.5 Pro (Google Generative AI).
 
 ---
 
 ## 🚀 Features
 
 - 🔍 Scrapes posts & comments from any Reddit user
-- 🧠 Generates structured user persona using Gemini (LLM)
+- 🧠 Generates structured user persona using Gemini 2.5 Pro (LLM)
 - 🔗 Includes citations to original Reddit content
 - 📝 Saves output as a `.txt` file
 
