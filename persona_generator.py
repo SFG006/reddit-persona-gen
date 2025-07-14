@@ -33,7 +33,7 @@ def build_prompt(user_data):
 def generate_persona(user_data):
     prompt = build_prompt(user_data)
 
-    model = genai.GenerativeModel(model_name="models/gemini-1.5-flash")
+    model = genai.GenerativeModel(model_name="models/gemini-2.5-pro")
 
     try:
         response = model.generate_content(prompt)
