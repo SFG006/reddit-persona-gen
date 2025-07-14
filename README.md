@@ -1,4 +1,3 @@
-```markdown
 # Reddit User Persona Generator 🤖
 
 This project generates a detailed user persona by analyzing Reddit posts and comments from a given profile URL. It scrapes public data using Reddit's API and summarizes the user's personality, interests, and values using Gemini Pro (Google Generative AI).
@@ -19,17 +18,17 @@ This project generates a detailed user persona by analyzing Reddit posts and com
 ```
 
 reddit-persona-gen/
-├── main.py                    # Entry point script
-├── reddit\_scraper.py          # Scrapes Reddit user data
-├── persona\_generator.py       # Builds prompt & sends to Gemini
-├── utils.py                   # Handles file output
-├── requirements.txt           # Required Python packages
-├── .env                       # API keys (not included in repo)
+├── main.py                  # Entry point script
+├── reddit\_scraper.py        # Scrapes Reddit user data
+├── persona\_generator.py     # Builds prompt & sends to Gemini
+├── utils.py                 # Handles file output
+├── requirements.txt         # Required Python packages
+├── .env                     # API keys (not included in repo)
+├── notebook.ipynb           # Development/testing notebook
 └── output/
 ├── persona\_ChiefLeef22.txt
-└── persona\_noah_bd.txt
+├── persona\_noah\_bd.txt
 └── persona\_zardvark.txt
-└── notebook.ipynb
 
 ````
 
@@ -47,6 +46,7 @@ reddit-persona-gen/
 ## 🛠️ Setup Instructions
 
 1. **Clone the repo:**
+
    ```bash
    git clone https://github.com/yourusername/reddit-persona-gen.git
    cd reddit-persona-gen
@@ -87,21 +87,19 @@ reddit-persona-gen/
 * [`u/noah_bd`](https://www.reddit.com/user/noah_bd/)
 * [`u/zardvark`](https://www.reddit.com/user/zardvark/)
 
-Output for both is included in the `/output` folder.
+Outputs for all are included in the `/output` folder.
 
 ---
 
 ## ✅ Notes
 
-* LLM output may vary slightly based on context length and API model.
+* LLM output may vary slightly based on context length and model behavior.
 * Only public Reddit data is used.
-* You can modify the limit of posts/comments using:
+* You can modify the number of posts/comments like this:
 
   ```bash
   python main.py <url> --limit 30
   ```
-
----
 
 ---
 
@@ -113,6 +111,6 @@ This repository also contains `notebook.ipynb`, where initial tests and ideas we
 
 ## 📬 Author
 
-Made by SFG006
+Made by **SFG006**
 
 ---
