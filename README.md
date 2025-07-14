@@ -19,16 +19,16 @@ This project generates a detailed user persona by analyzing Reddit posts and com
 
 reddit-persona-gen/
 ├── main.py                  # Entry point script
-├── reddit\_scraper.py        # Scrapes Reddit user data
-├── persona\_generator.py     # Builds prompt & sends to Gemini
+├── reddit_scraper.py        # Scrapes Reddit user data
+├── persona_generator.py     # Builds prompt & sends to Gemini
 ├── utils.py                 # Handles file output
 ├── requirements.txt         # Required Python packages
 ├── .env                     # API keys (not included in repo)
 ├── notebook.ipynb           # Development/testing notebook
 └── output/
-├── persona\_ChiefLeef22.txt
-├── persona\_noah\_bd.txt
-└── persona\_zardvark.txt
+    ├── persona_ChiefLeef22.txt
+    ├── persona_noah_bd.txt
+    └── persona_zardvark.txt
 
 ````
 
